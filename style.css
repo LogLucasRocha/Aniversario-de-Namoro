@@ -1,0 +1,39 @@
+body{
+  background-color: #494d64;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  color: #f5bde6;
+}
+
+#foto_introducao{
+  width: 350px;
+  border-radius: 20px;
+}
+
+
+.container{
+  z-index: 10;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 300px 600px;
+  border-radius: 25px;
+  left: 50%;
+  top: 50%;
+  padding: 3rem;
+  transform: translate(-50%, -50%);
+  background-color: #1e1e2e;
+}
+
+.introducao{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.aesthetic-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
