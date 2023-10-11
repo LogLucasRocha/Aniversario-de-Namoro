@@ -37,3 +37,22 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+#barrinha {
+  animation: blink 0.6s infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

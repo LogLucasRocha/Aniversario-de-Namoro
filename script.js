@@ -18,4 +18,21 @@ const timer = () => {
 
 timer();
 
+function typeEffect(element, speed) {
+  const text = element.innerHTML;
+  element.innerHTML = "";
+
+  let i = 0;
+  const typing = setInterval(function () {
+    if (i < text.length) {
+      element.innerHTML += text.charAt(i);
+      i++;
+    } else {
+      clearInterval(typing);
+    }
+  }, speed);
+}
+
+typeEffect(document.getElementById("apelido"), 150  ); // Ajuste a velocidade conforme necessário
+
 
