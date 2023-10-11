@@ -23,6 +23,7 @@ body{
   padding: 3rem;
   transform: translate(-50%, -50%);
   background-color: #1e1e2e;
+  height: 300px;
 }
 
 .introducao{
