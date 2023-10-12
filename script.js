@@ -23,8 +23,9 @@ timer();
 const apelidoList = [
   "minha princesinha!",
   "minha gatinha!",
-  "minha moçoila mais linda do mundo!",
-  "minha gatinha rajada laranja e azul!",
+  "minha moçoila!",
+  "minha gatinha rajada!",
+  "minha plantinha favorita!"
 ];
 
 const fotoList = [
@@ -117,15 +118,14 @@ const makeStar = (size) => {
     star.style["border-radius"] = "5px";
     star.style["position"] = "absolute";
 
-    moveStar(star); // Move a estrela para uma posição inicial aleatória
+    moveStar(star);
     starrysky.appendChild(star);
   }
 
   setInterval(() => {
-    // Atualiza as posições das estrelas
     let stars = document.querySelectorAll(".starry-sky > div");
     stars.forEach(moveStar);
-  }, 1000);
+  }, 700);
 };
 
 makeStar(4);
