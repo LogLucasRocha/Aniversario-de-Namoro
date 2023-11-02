@@ -1,4 +1,4 @@
-const timer = () => {
+  const timer = () => {
   let firstDay = new Date(2022, 10, 26, 0, 0, 0, 0);
   let timeElapsed = Date.now() - firstDay;
   let daysElapsed = Math.floor(timeElapsed / (1000 * 60 * 60 * 24));
