@@ -30,7 +30,7 @@ body{
 #novembro-2{
   position: absolute;
   top: 130px;
-  right: 350px;
+  right: 300px;
   animation: novembro-2 4s linear forwards;
   transform: translateX(0); /* Define a posição inicial, nesse caso, 0 */
 
