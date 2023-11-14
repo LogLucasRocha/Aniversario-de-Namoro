@@ -12,7 +12,7 @@ body{
 
 #novembro-1{
   position: absolute;
-  top: 80px;
+  top: 150px;
   left: 350px;
   animation: novembro-1 4s linear forwards;
   transform: translateX(0); /* Define a posição inicial, nesse caso, 0 */
@@ -20,8 +20,8 @@ body{
 
 #novembro-3{
   position: absolute;
-  height: 250px;
-  top: 400px;
+  height: 300px;
+  top: 450px;
   left: 350px;
   animation: novembro-3 4s linear forwards;
   transform: translateX(0); /* Define a posição inicial, nesse caso, 0 */
@@ -29,7 +29,7 @@ body{
 
 #novembro-2{
   position: absolute;
-  top: 130px;
+  top: 200px;
   right: 300px;
   animation: novembro-2 4s linear forwards;
   transform: translateX(0); /* Define a posição inicial, nesse caso, 0 */
